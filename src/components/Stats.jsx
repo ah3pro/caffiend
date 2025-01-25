@@ -13,6 +13,7 @@ function StatCard(props){
 
 export default function Stats() {
 
+    //Change 
     const { globalData } = useAuth()
 
     const stats = calculateCoffeeStats(globalData)
@@ -28,7 +29,7 @@ export default function Stats() {
         <>
             <div className="section-header">
                 <i className="fa-solid fa-chart-simple"/>
-                <h2>Stats</h2>
+                <h2>Stats</h2> 
             </div>
             <div className="stats-grid">
                 <StatCard lg title="Active Caffeine Level">
